@@ -1,0 +1,142 @@
+body {
+    font-family: 'Sawarabi Mincho', serif;
+    position: relative; /* For scrollspy */
+    background:url(/assets/img/110929185832.jpg); /* from https://patterns.nanya-kanya.info/detail/4080/ */
+}
+nav.navbar {
+    background:linear-gradient(#333,#111);
+}
+.jumbotron {
+    height:100vh;
+    background:url(/assets/img/wadamariko_hero.jpg);
+    background-size:cover;
+    margin-bottom:0;
+    color:#eee;
+    text-shadow: 0 0 10px #333;
+}
+h1 {
+    /* text-align:center; */
+    font-size:40px;
+}
+.lead {
+    /*text-align:center; */
+    font-size:17px;
+}
+.section-dark {
+    color:#eee;
+    /* text-shadow: 0 0 10px #333; */
+}
+.section-light {
+    color:#111;
+    /* background-color:#eee; */
+}
+footer a {
+    color:inherit;
+}
+
+#news {
+    text-shadow: 0 0 10px #333;
+}
+
+#news a {
+    color:#9bd7f1;
+}
+
+#news a:hover {
+    color:#fff;
+}
+
+/* Profile section eventtitle and eventsection */
+.eventtitle {
+    font-weight: bold;
+    margin-right: 20px;
+}
+.eventsection {
+    margin-bottom:60px;
+}
+
+/* Intro hero text sizes at different breakpoints */
+@media (min-width: 576px) {
+    h1 {
+        font-size:40px;
+    }
+    .lead {
+        font-size:17px;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size:60px;
+    }
+    .lead {
+        font-size:25px;
+    }
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size:80px;
+    }
+    .lead {
+        font-size:35px;
+    }
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size:100px;
+    }
+    .lead {
+        font-size:45px;
+    }
+}
+
+/* Section backgrounds */
+#news {
+    /* background-color:#222; */
+    background:url(/assets/img/tenji.jpg) no-repeat center center;
+    background-size: cover;
+}
+@media (min-width: 576px) {
+    #news {
+        background:url(/assets/img/tenji.jpg) fixed no-repeat center center;
+        background-size:cover;
+    }
+}
+#gallery {
+    /* background-color:#222; */
+    background:url(/assets/img/110929185832_dark.jpg);
+}
+/* @media (min-width: 576px) {
+    #gallery {
+        background:url(/assets/img/macro2.jpg) scroll no-repeat center center;
+        background-size:cover;
+    }
+} */
+
+#about,#profile {
+    /* background:url(/assets/img/110929185832.jpg); /* from https://patterns.nanya-kanya.info/detail/4080/ */
+}
+
+/* Section container margins */
+.container-jumbotron {
+     margin-top:56px;
+}
+.container-about,.container-news,.container-profile,.container-gallery,.container-footer {
+    padding-top:100px;
+    padding-bottom:100px;
+}
+
+@media (min-width: 576px) {
+    .container-about,.container-news,.container-profile,.container-gallery/* ,.container-footer */ {
+        padding-top:200px;
+        padding-bottom:200px;
+    }
+}
+
+/* Gallery */
+.galleryimg {
+    width:100%;
+}
+

@@ -1,0 +1,40 @@
+<!-- Profile section -->
+<section id="profile" class="section-light">
+    <div class="container container-profile">
+        <h2>PROFILE</h2>
+            <table class="table eventsection">
+                <tbody>
+                    <tr>
+                        <th scope="row">1987</th>
+                        <td>愛知県生まれ</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2006</th>
+                        <td>愛知県立旭丘高等学校美術科</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2012</th>
+                        <td>東京藝術大学美術学部絵画科日本画専攻卒</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">現在</th>
+                        <td>日本美術院研究会員</td>
+                    </tr>
+                </tbody>
+            </table>
+        <h2>展示会歴</h2>
+            {% for yearly in site.profile %} {% comment %} Add events in a year to the corresponding _profile/20xx.md file. Add new years by creating a new _profile/20xx.md file. {% endcomment%}
+                <h3>{{ yearly.title }}</h3>
+                <table class="table eventsection">
+                    <tbody>
+                        {% for event in yearly.events %}
+                            <tr>
+                                <th scope="row">{{ event.title }}</th>
+                                <td>{{ event.place }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            {% endfor %}
+    </div>
+</section>

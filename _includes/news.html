@@ -1,0 +1,26 @@
+<!-- News section -->
+<section id="news" class="section-dark">
+    <div class="container container-news">
+        <h2>履歴</h2>
+            <table class="table eventsection">
+                <tbody>
+                    <tr>
+                        <th scope="row">2014年11月8日</th>
+                        <td>サイトを開設いたしました。</td>                        
+                    </tr>
+                    <tr>
+                        <th scope="row">2015年1月8日</th>
+                        <td><a href="https://www.facebook.com/wmariko/" target="_blank">Facebookページを開設いたしました。</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2018年8月32日</th>
+                        <td>サイトのデザインを更新しました。</td>
+                    </tr>
+                </tbody>
+            </table>
+            {% for post in site.posts limit:1 %} <!-- To add news item, create a new *.md file in _news named with the date in yyyy-mm-dd format. Don't make two posts on the same day. -->
+                {{ post.content }}
+                <small>更新 {{ post.date | date: "%Y年%m月%d日" }}</small>
+            {% endfor %}
+    </div>
+</section>
