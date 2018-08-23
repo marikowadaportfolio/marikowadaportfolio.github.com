@@ -4,6 +4,7 @@
         
         {% if jekyll.environment == "production" %}
           {% include googleanalytics.html %}
+          {% include hotjar.html %}
         {% endif %}
         
         <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
