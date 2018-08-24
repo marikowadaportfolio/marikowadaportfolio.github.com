@@ -9,6 +9,8 @@
         
         <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
         <meta name="description" content="道端にある草花でも、それぞれ生きるために必要な美しい姿をしています。存在することに無意味なものはなく、全てが尊いものであると思っています。生まれてくる命の奇跡とそこにある希望に願いを込めて、作品を制作しています。" />
+        <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
+        
         <!-- Bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
         
