@@ -29,7 +29,7 @@
                     <tbody>
                         {% for event in yearly.events %}
                             <tr>
-                                <th scope="row">{{ event.title }}</th>
+                                <th scope="row">{% if event.url != null %}<a href="{{ event.url }}" target="_blank">{% endif %}{{ event.title }}{% if event.url != null %}</a>{% endif %}</th>
                                 <td>{{ event.place }}</td>
                             </tr>
                         {% endfor %}
