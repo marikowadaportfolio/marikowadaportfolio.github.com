@@ -5,4 +5,4 @@ collections:
     gallery:
 
 plugins:
-    jekyll-sitemap
+    - jekyll-sitemap
