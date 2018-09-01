@@ -6,7 +6,7 @@ body {
 nav.navbar {
     background:linear-gradient(#333,#111);
 }
-.jumbotron {
+.jumbotron-index {
     height:100vh;
     background:url(/assets/img/wadamariko_hero.jpg);
     background-size:cover;
@@ -140,3 +140,10 @@ footer a {
     width:100%;
 }
 
+.jumbotron-postheader {
+    height:500px;
+    background:url(/assets/img/wadamariko_hero.jpg);
+    background-size:cover;
+    color:#eee;
+    text-shadow: 0 0 10px #333;
+}
