@@ -1,5 +1,6 @@
 ---
 layout: newspage
+title: News
 ---
 
 {% comment %}
