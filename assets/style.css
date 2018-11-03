@@ -3,6 +3,12 @@ body {
     position: relative; /* For scrollspy */
     background:url(/assets/img/110929185832.jpg); /* from https://patterns.nanya-kanya.info/detail/4080/ */
 }
+
+p {
+    margin-top:3rem;
+    margin-bottom:3rem;
+}
+
 nav.navbar {
     background:linear-gradient(#333,#111);
 }
