@@ -6,18 +6,13 @@
         {% include postheader.html %}
         
         <div class="container">
-            <table class="table">
-                <tbody>
-                    {% for post in site.posts %} <!-- To add news item, create a new *.md file in _news named with the date in yyyy-mm-dd format. Don't make two posts on the same day. -->
-                        <tr>
-                            <td style="padding-top:100px;">
-                                {{ post.content }}
-                                <small>更新 {{ post.date | date: "%Y年%m月%d日" }}</small>
-                            </td>
-                        </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
+            {% for post in site.posts %} <!-- To add news item, create a new *.md file in _news named with the date in yyyy-mm-dd format. Don't make two posts on the same day. -->
+            <div class="newspagepost">
+                {{ post.content }}
+                <small>更新 {{ post.date | date: "%Y年%m月%d日" }}</small>
+            </div>
+            <hr>
+            {% endfor %}
         </div>
         
         {% include footer.html %}

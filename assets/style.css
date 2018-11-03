@@ -153,3 +153,8 @@ footer a {
     color:#eee;
     text-shadow: 0 0 10px #333;
 }
+
+.newspagepost {
+    padding-top:5rem;
+    padding-bottom:5rem;
+}
