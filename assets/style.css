@@ -12,13 +12,19 @@ p {
 nav.navbar {
     background:linear-gradient(#333,#111);
 }
-.jumbotron-index {
+.jumbotron-index { /* Deprecated with parallax */
     height:100vh;
     background:url(/assets/img/wadamariko_hero.jpg);
     background-size:cover;
     margin-bottom:0;
     color:#eee;
     text-shadow: 0 0 10px #333;
+}
+.header-index { /* The new hero image section with parallax */
+    height:100vh;
+    color:#eee;
+    text-shadow: 0 0 10px #333;
+    padding-top:56px;
 }
 h1 {
     /* text-align:center; */
