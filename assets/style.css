@@ -111,12 +111,12 @@ footer a {
 /* Section backgrounds */
 #news {
     /* background-color:#222; */
-    background:url(/assets/img/tenji.jpg) no-repeat center center;
+    background:url(/assets/img/newsback.jpg) no-repeat center center;
     background-size: cover;
 }
 @media (min-width: 576px) {
     #news {
-        background:url(/assets/img/tenji.jpg) fixed no-repeat center center;
+        background:url(/assets/img/newsback.jpg) fixed no-repeat center center;
         background-size:cover;
     }
 }
