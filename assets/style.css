@@ -16,6 +16,9 @@ p {
 nav.navbar {
     background:linear-gradient(#333,#111);
 }
+.navbar-brand {
+        text-transform:uppercase;
+}
 .jumbotron-index { /* Deprecated with parallax */
     height:100vh;
     background:url(/assets/img/wadamariko_hero.jpg);
@@ -37,6 +40,7 @@ h1 {
 .lead {
     /*text-align:center; */
     font-size:17px;
+    text-transform:uppercase;
 }
 .section-dark {
     color:#eee;
