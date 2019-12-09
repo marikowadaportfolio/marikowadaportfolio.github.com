@@ -1,6 +1,6 @@
 ---
 layout: indexpage
-language: jp
+language: ja
 ---
 
 {% comment %}
