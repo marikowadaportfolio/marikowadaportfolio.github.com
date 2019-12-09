@@ -4,12 +4,44 @@
         <h2>PROFILE</h2>
             <table class="table eventsection">
                 <tbody>
-                    {% for profileyear in site.data.profile %}
                     <tr>
-                        <th scope="row">{% if page.language == 'en' and profileyear.year-en != null %}{{ profileyear.year-en }}{% else %}{{ profileyear.year }}{% endif %}</th>
-                        <td>{% if page.language == 'en' %}{{ profileyear.en }}{% else %}{{ profileyear.ja }}{% endif %}</td>
+                        <th scope="row">1987</th>
+                        <td>{% case page.language %}
+                                {% when 'ja' %}愛知県生まれ
+                                {% when 'en' %}Born in Aichi prefecture
+                            {% endcase %}</td>
                     </tr>
-                    {% endfor %}
+                    <tr>
+                        <th scope="row">2006</th>
+                        <td>{% case page.language %}
+                                {% when 'ja' %}愛知県立旭丘高等学校美術科 卒
+                                {% when 'en' %}Graduated from the Dept. of Fine Arts, Aichi Prefectural Asahigaoka High School
+                            {% endcase %}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2012</th>
+                        <td>{% case page.language %}
+                                {% when 'ja' %}東京藝術大学美術学部絵画科日本画専攻 卒
+                                {% when 'en' %}Graduated from the <em>Nihonga</em> Course, Dept. of Painting, Tokyo University of the Arts
+                            {% endcase %}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2013</th>
+                        <td>{% case page.language %}
+                                {% when 'ja' %}第68回春の院展 入選<br>第98回再興院展 入選
+                                {% when 'en' %}Selected for the 68th <em>Inten</em> Spring Exhibition<br>Selected for the 98th <em>Inten</em> Autumn Exhibition
+                            {% endcase %}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">{% case page.language %}
+                                {% when 'ja' %}現在
+                                {% when 'en' %}Currently
+                            {% endcase %}</th>
+                        <td>{% case page.language %}
+                                {% when 'ja' %}日本美術院研究会員
+                                {% when 'en' %}Research Member, <em>Nihon Bijutsuin</em>
+                            {% endcase %}</td>
+                    </tr>
                 </tbody>
             </table>
         <h2>展示会歴</h2>
