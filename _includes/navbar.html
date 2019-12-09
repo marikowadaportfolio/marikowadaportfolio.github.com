@@ -6,17 +6,9 @@
   <a class="navbar-brand" href="/">
   {% endif %}
     <img src="/assets/img/marikostamp_30.png" width="30" height="30" class="d-inline-block align-top" alt="">
-    <!-- Mariko Wada -->
+    Mariko Wada
   </a>
   {% if page.layout == 'indexpage' %}
-  <div class="btn-group" role="group" aria-label="Language selector">
-          <button type="button" class="navbar-text btn btn-outline-light btn-sm"{% if page.language == 'ja' %} disabled{% endif %}>
-                  <!-- {% case page.language %}{% when 'ja' %}<a href="/en">en</a>{% when 'en' %}<a href="/">ja</a>{% endcase %} -->{% if page.language != 'ja' %}<a href="/">{% endif %}日{% if page.language != 'ja' %}</a>{% endif %}
-          </button>
-          <button type="button" class="navbar-text btn btn-outline-light btn-sm"{% if page.language == 'en' %} disabled{% endif %}>
-                  {% if page.language != 'en' %}<a href="/en">{% endif %}en{% if page.language != 'en' %}</a>{% endif %}
-          </button>
-  </div>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
