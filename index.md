@@ -1,5 +1,6 @@
 ---
 layout: indexpage
+language: jp
 ---
 
 {% comment %}

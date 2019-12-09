@@ -4,28 +4,12 @@
         <h2>PROFILE</h2>
             <table class="table eventsection">
                 <tbody>
+                    {% for profileyear in site.data.profile %}
                     <tr>
-                        <th scope="row">1987</th>
-                        <td>愛知県生まれ<br>Born in Aichi prefecture</td>
+                        <th scope="row">{% if page.language == 'en' and profileyear.year-en != null %}{{ profileyear.year-en }}{% else %}{{ profileyear.year }}{% endif %}</th>
+                        <td>{% if page.language == 'en' %}{{ profileyear.en }}{% else %}{{ profileyear.ja }}{% endif %}</td>
                     </tr>
-                    <tr>
-                        <th scope="row">2006</th>
-                        <td>愛知県立旭丘高等学校美術科 卒<br>Graduated from the Dept. of Fine Arts, Aichi Prefectural Asahigaoka High School
-</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2012</th>
-                        <td>東京藝術大学美術学部絵画科日本画専攻 卒<br>Graduated from the <em>Nihonga</em> Course, Dept. of Painting, Tokyo University of the Arts
-</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2013</th>
-                        <td>第68回春の院展 入選<br>第98回再興院展 入選<br>Selected for the 68th <em>Inten</em> Spring Exhibition<br>Selected for the 98th <em>Inten</em> Autumn Exhibition</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">現在<br>Currently</th>
-                        <td>日本美術院研究会員<br><em>Nihon Bijutsuin</em> Research Member</td>
-                    </tr>
+                    {% endfor %}
                 </tbody>
             </table>
         <h2>展示会歴</h2>
