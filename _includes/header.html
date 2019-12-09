@@ -1,7 +1,7 @@
 <!-- header jumbotron -->
 <div class="parallax-window header-index" data-parallax="scroll" data-image-src="/assets/img/hero2019_h1500.jpg" id="intro">
   <div class="container container-jumbotron">
-    <h1>日本画家<br>和田真理子</h1>
-    <p class="lead">Mariko Wada</p>
+    <h1>{% case page.language %}{% when 'ja' %}{{ site.data.header.header-ja }}{% when 'en' %} {{ site.data.header.header-en }}{% endcase %}</h1>
+    <p class="lead">{% case page.language %}{% when 'ja' %}{{ site.data.header.headerlede-ja }}{% when 'en' %} {{ site.data.header.headerlede-en }}{% endcase %}</p>
   </div>
 </div>
