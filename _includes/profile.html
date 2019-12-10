@@ -44,7 +44,10 @@
                     </tr>
                 </tbody>
             </table>
-        <h2>展示会歴</h2>
+        <h2>{% case page.language %}
+                {% when 'ja' %}展示会歴
+                {% when 'en' %}Exhibitions
+            {% endcase %}</h2>
             {% for yearly in site.profile %} {% comment %} Add events in a year to the corresponding _profile/20xx.md file. Add new years by creating a new _profile/20xx.md file. {% endcomment%}
                 <h3>{{ yearly.year }}</h3>
                 <table class="table eventsection">
