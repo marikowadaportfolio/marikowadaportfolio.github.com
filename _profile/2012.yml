@@ -3,15 +3,26 @@ year: 2012
 events:
     - title: 第59回東京藝術大学卒業・修了作品展
       place: 東京藝術大学
+      title-en: The 59th Graduation Exhibit of the Tokyo University of the Arts
+      place-en: Tokyo University of the Arts
     - title: 然々展(個展)
       place: 田中酒造二階　やねうら画廊
+      title-en: Shikajika (Solo Exhibit)
+      place-en: Attic Gallery (2F Tanaka Brewery)
     - title: スクエア・ザ・セレクタブル６
       place: フリュウギャラリー
+      title-en: Square the Selectable 6
+      place-en: Flew Gallery
     - title: 韓国現代陶芸作家とその仲間たち　2012
       place: フォーシーズンズホテル椿山荘　アートギャラリー
+      title-en: Korean Contemporary Ceramic Artists and Friends 2012
+      place-en: Art Gallery, Four Seasons Hotel Chinzanso
     - title: 見参～KENZAN～2012
       place: タワーホール船堀
+      title-en: Kenzan 2012
+      place-en: Tower Hall Funabori
     - title: 既視感の行方 II(五人展)
       place: フリュウギャラリー
-      
+      title-en: The Search for Déjà Vu (Five-Artist Exhibit)
+      place-en: Flew Gallery
 ---

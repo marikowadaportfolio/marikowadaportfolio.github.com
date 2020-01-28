@@ -1,5 +1,10 @@
 <!doctype html>
+{% case page.language %}
+{% when 'ja' %}
 <html lang="ja">
+{% when 'en' %}
+<html lang="en">
+{% endcase %}
     {% include head.html %}
     <body data-spy="scroll" data-target=".navbar" id="top"> {% comment %} for scrollspy {% endcomment %}
         {% include navbar.html %}

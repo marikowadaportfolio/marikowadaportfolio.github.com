@@ -3,17 +3,31 @@ year: 2019
 events:
     - title: －アートフルな暮らし－　若手作家作品展
       place: 伊勢丹浦和店
+      title-en: A Life Full of Art (Young Artists Exhibit)
+      place-en: Isetan Urawa Department Store
     - title: 黒石千恵子・中沢 梓・みやじまゆういち・和田真理子　日本画4人展
       place: ながの東急百貨店
+      title-en: Chieko Kuroishi / Azusa Nakazawa / Yuichi Miyajima / Wada Mariko <em>Nihonga</em> Four-Artist Exhibit
+      place-en: Nagano Tokyu Department Store
     - title: 女流日本画家四人展
       place: 松坂屋名古屋店
+      title-en: Four Young Artists
+      place-en: Matsuzakaya Nagoya Department Store
     - title: 2019ヤングアーティスト旋風　アート　アート　アート
       place: 松坂屋名古屋店
+      title-en: Young Artists 2019 Art Art Art
+      place-en: Matsuzakaya Nagoya Department Store
     - title: 2019年東武絵画市 美術特選逸品
       place: 東武船橋店
+      title-en: Tobu Art Market 2019
+      place-en: Tobu Funabashi Department Store
     - title: 渾身の大美術展 KENZAN 2019
       place: 新宿パークタワー
       url: http://kenzan.jp/exhibitions/2019-kenzan/
+      title-en: Kenzan 2019
+      place-en: Shinjuku Park Tower
     - title: 現代のエネルギー 躍動する若手作家たち展
       place: 仙台阿部敬四郎ギャラリー
+      title-en: Vibrant Young Artists
+      place-en: Sendai Abe Keishiro Gallery
 ---

@@ -3,8 +3,14 @@
     <div class="container container-about">
         <div class="row">
             <div class="col-xl-7 col-lg-7 col-md-6 col-sm-12">
-                <h2>日本画家 和田真理子</h2>
-                    <p>道端にある草花でも、それぞれ生きるために必要な美しい姿をしています。存在することに無意味なものはなく、全てが尊いものであると思っています。植物をモチーフの中心に、膠・胡粉・岩絵具・水干絵具・和紙など、日本の伝統的な画材を用いて作品を制作しています。</p>
+                <h2>{% case page.language %}
+                        {% when 'ja' %}日本画家 和田真理子
+                        {% when 'en' %}MARIKO WADA, <em>NIHONGA</em> ARTIST
+                    {% endcase %}</h2>
+                    <p>{% case page.language %}
+                            {% when 'ja' %}道端にある草花でも、それぞれ生きるために必要な美しい姿をしています。存在することに無意味なものはなく、全てが尊いものであると思っています。植物をモチーフの中心に、膠・胡粉・岩絵具・水干絵具・和紙など、日本の伝統的な画材を用いて作品を制作しています。
+                            {% when 'en' %}The shape and form of a plant derive from the evolutionary necessities imparted on it by the environment in which it grows and thrives.  No plant is without purpose or meaning in this world, and are each beautiful in their own ways.  I attempt to capture this beauty in my <em>Nihonga</em> artwork, using traditional <em>Nihonga</em> materials like animal glue, shell lime, mineral pigments, distemper paint, and <em>washi</em>.
+                       {% endcase %}</p>
             </div>
             <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12">
                 <img src="/assets/img/mariko_wada-profile.jpg" alt="日本画家 和田真理子" title="日本画家 和田真理子" style="width:100%;">

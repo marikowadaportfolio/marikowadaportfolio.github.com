@@ -6,35 +6,62 @@
                 <tbody>
                     <tr>
                         <th scope="row">1987</th>
-                        <td>愛知県生まれ</td>
+                        <td>{% case page.language %}
+                                {% when 'ja' %}愛知県生まれ
+                                {% when 'en' %}Born in Aichi prefecture
+                            {% endcase %}</td>
                     </tr>
                     <tr>
                         <th scope="row">2006</th>
-                        <td>愛知県立旭丘高等学校美術科 卒</td>
+                        <td>{% case page.language %}
+                                {% when 'ja' %}愛知県立旭丘高等学校美術科 卒
+                                {% when 'en' %}Graduation from the Dept. of Fine Arts, Aichi Prefectural Asahigaoka High School
+                            {% endcase %}</td>
                     </tr>
                     <tr>
                         <th scope="row">2012</th>
-                        <td>東京藝術大学美術学部絵画科日本画専攻 卒</td>
+                        <td>{% case page.language %}
+                                {% when 'ja' %}東京藝術大学美術学部絵画科日本画専攻 卒
+                                {% when 'en' %}Graduation from the <em>Nihonga</em> Course, Dept. of Painting, Tokyo University of the Arts
+                            {% endcase %}</td>
                     </tr>
                     <tr>
                         <th scope="row">2013</th>
-                        <td>第68回春の院展 入選<br>第98回再興院展 入選</td>
+                        <td>{% case page.language %}
+                                {% when 'ja' %}第68回春の院展 入選<br>第98回再興院展 入選
+                                {% when 'en' %}Selected for the 68th <em>Inten</em> Spring Exhibition<br>Selected for the 98th <em>Inten</em> Autumn Exhibition
+                            {% endcase %}</td>
                     </tr>
                     <tr>
-                        <th scope="row">現在</th>
-                        <td>日本美術院研究会員</td>
+                        <th scope="row">{% case page.language %}
+                                {% when 'ja' %}現在
+                                {% when 'en' %}Currently
+                            {% endcase %}</th>
+                        <td>{% case page.language %}
+                                {% when 'ja' %}日本美術院研究会員
+                                {% when 'en' %}Research Member, <em>Nihon Bijutsuin</em>
+                            {% endcase %}</td>
                     </tr>
                 </tbody>
             </table>
-        <h2>展示会歴</h2>
+        <h2>{% case page.language %}
+                {% when 'ja' %}展示会歴
+                {% when 'en' %}EXHIBITIONS
+            {% endcase %}</h2>
             {% for yearly in site.profile %} {% comment %} Add events in a year to the corresponding _profile/20xx.md file. Add new years by creating a new _profile/20xx.md file. {% endcomment%}
                 <h3>{{ yearly.year }}</h3>
                 <table class="table eventsection">
                     <tbody>
                         {% for event in yearly.events %}
                             <tr>
-                                <th scope="row">{% if event.url != null %}<a href="{{ event.url }}" target="_blank">{% endif %}{{ event.title }}{% if event.url != null %}</a>{% endif %}</th>
-                                <td>{{ event.place }}</td>
+                                {% case page.language %}
+                                        {% when 'ja' %}
+                                        <th scope="row">{% if event.url != null %}<a href="{{ event.url }}" target="_blank">{% endif %}{{ event.title }}{% if event.url != null %}</a>{% endif %}</th>
+                                        <td>{{ event.place }}</td>
+                                        {% when 'en' %}
+                                        <th scope="row">{% if event.url != null %}<a href="{{ event.url }}" target="_blank">{% endif %}{% if event.title-en != null %}{{ event.title-en }}{% else %}{{ event.title }}{% endif %}{% if event.url != null %}</a>{% endif %}</th>
+                                        <td>{% if event.place-en != null %}{{ event.place-en }}{% else %}{{ event.place }}{% endif %}</td>
+                                {% endcase %}
                             </tr>
                         {% endfor %}
                     </tbody>

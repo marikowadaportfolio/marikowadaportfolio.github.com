@@ -8,7 +8,10 @@
         {% endif %}
         
         <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-        <meta name="description" content="道端にある草花でも、それぞれ生きるために必要な美しい姿をしています。存在することに無意味なものはなく、全てが尊いものであると思っています。生まれてくる命の奇跡とそこにある希望に願いを込めて、作品を制作しています。" />
+	
+        
+	<meta name="description" content="{% case page.language %}{% when 'ja' %}道端にある草花でも、それぞれ生きるために必要な美しい姿をしています。存在することに無意味なものはなく、全てが尊いものであると思っています。植物をモチーフの中心に、膠・胡粉・岩絵具・水干絵具・和紙など、日本の伝統的な画材を用いて作品を制作しています。{% when 'en' %}A plant's shape and form derive from the evolutionary necessities imparted on it by the environment in which it grows and thrives. No plant is without purpose or meaning in this world, and are each beautiful in their own ways. I attempt to capture this beauty in my Nihonga artwork, using traditional Nihonga materials like animal glue, shell lime, mineral pigments, distemper paint, and washi.{% endcase %}" />
+	
         <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
         
         <!-- Bootstrap -->
