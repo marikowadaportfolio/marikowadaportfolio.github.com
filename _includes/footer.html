@@ -2,12 +2,12 @@
         <div class="container text-center">
                 &copy; 2018-2019 和田真理子.  All rights reserved. | <a href="https://www.facebook.com/wmariko/" title="和田真理子 Facebookページ" target="_blank"><i class="fab fa-facebook-square"></i></a>
         </div>
-        <div class="container text-center">
+        {% comment %}<div class="container text-center">
                 {% case page.language %}
                         {% when 'ja' %}
                                 Language: <strong>日本語</strong> | <a href="/en">English</a>
                         {% when 'en' %}
                                 Language: <a href="/">日本語</a> | <strong>English</strong>
                 {% endcase %}
-        </div>
+        </div>{% endcomment %}
 </footer>
