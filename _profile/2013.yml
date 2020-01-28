@@ -3,12 +3,22 @@ year: 2013
 events:
     - title: 第68回春の院展
       place: 日本橋三越
+      title-en: The 68th <em>Inten</em> Spring Exhibition
+      place-en: Nihonbashi Mitsukoshi Department Store
     - title: 草木図譜展
       place: フリュウギャラリー
+      title-en: A Reference of Plants
+      place-en: Flew Gallery
     - title: たんざく展
       place: 伊勢丹新宿店・銀座アートデータバンク
+      title-en: <em>Tanzaku</em> Exhibit
+      place-en: Isetan Shinjuku Department Store and Ginza Art Data Bank
     - title: 見参～KENZAN～2013
       place: タワーホール船堀
+      title-en: Kenzan 2013
+      place-en: Tower Hall Funabori
     - title: 第98回再興院展
       place: 東京都美術館
+      title-en: The 98th <em>Inten</em> Autumn Exhibition
+      place-en: Tokyo Metropolitan Art Museum
 ---

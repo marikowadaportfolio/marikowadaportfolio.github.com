@@ -54,8 +54,14 @@
                     <tbody>
                         {% for event in yearly.events %}
                             <tr>
-                                <th scope="row">{% if event.url != null %}<a href="{{ event.url }}" target="_blank">{% endif %}{{ event.title }}{% if event.url != null %}</a>{% endif %}</th>
-                                <td>{{ event.place }}</td>
+                                {% case page.language %}
+                                        {% when 'ja' %}
+                                        <th scope="row">{% if event.url != null %}<a href="{{ event.url }}" target="_blank">{% endif %}{{ event.title }}{% if event.url != null %}</a>{% endif %}</th>
+                                        <td>{{ event.place }}</td>
+                                        {% when 'en' %}
+                                        <th scope="row">{% if event.url != null %}<a href="{{ event.url }}" target="_blank">{% endif %}{% if event.title-en != null %}{{ event.title-en }}{% else %}{{ event.title }}{% endif %}{% if event.url != null %}</a>{% endif %}</th>
+                                        <td>{% if event.place-en != null %}{{ event.place-en }}{% else %}{{ event.place }}{% endif %}</td>
+                                {% endcase %}
                             </tr>
                         {% endfor %}
                     </tbody>

@@ -3,16 +3,28 @@ year: 2018
 events:
     - title: 若手女流作家三人展
       place: ながの東急
+      title-en: Three Young Artists
+      place-en: Nagano Tokyu Department Store
     - title: アートでいこうvol.2
       place: 伊勢丹浦和店
+      title-en: Let's Go Art
+      place-en: Isetan Urawa Department Store
     - title: ～ヤングアーティスト旋風～2018アートアートアート。
       place: 松坂屋名古屋店
+      title-en: Young Artists 2018 Art Art Art
+      place-en: Matsuzakaya Nagoya Department Store
     - title: すずやかアート展
       place: 丸善・丸の内本店
+      title-en: Suzuyaka Art Exhibit
+      place-en: Maruzen Marunouchi
     - title: 見参～KENZAN～2018
       place: 東京芸術劇場
       url: http://kenzan.jp/exhibitions/kenzan-2018/
+      title-en: Kenzan 2018
+      place-en: Tokyo Metropolitan Theatre
     - title: 八犬堂設立八周年記念展「犬なのか犬じゃないのか」展
       place: IID 世田谷ものづくり学校
       url: https://hakkendo.net/exhibitions.html#dogornot
+      title-en: Hakkendo 8th Anniversary Exhibit "Dog or Not"
+      place-en: Ikejiri Institute of Design 
 ---

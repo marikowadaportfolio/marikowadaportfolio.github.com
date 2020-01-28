@@ -3,19 +3,33 @@ year: 2014
 events:
     - title: アートのチカラ
       place: 伊勢丹新宿店
+      title-en: The Power of Art
+      place-en: Isetan Shinjuku Department Store
     - title: スクエア・ザ・ダブル
       place: フリュウギャラリー
+      title-en: Square the Double
+      place-en: Flew Gallery
     - title: 日本画三人展
       place: ながの東急
+      title-en: <em>Nihonga</em> Three-Artist Exhibit
+      place-en: Nagano Tokyu Department Store
     - title: 無窮の會
       place: 日本橋三越
+      title-en: Exhibit of Infinity
+      place-en: Nihonbashi Mitsukoshi Department Store
     - title: 有芽の会
       place: 西武池袋店
+      title-en: Yuga no Kai
+      title-jp: Seibu Ikebukuro Department Store
     - title: たんざく展
       place: 伊勢丹新宿店・銀座アートデータバンク
+      title-en: <em>Tanzaku</em> Exhibit
+      place-en: Isetan Shinjuku Department Store and Ginza Art Data Bank
     - title: 見参～KENZAN～2014
       place: タワーホール船堀
       url: http://kenzan.jp/exhibitions/kenzan-2014/
-    - title: 小さなアートフェア
-      place: 広島三越
+      title-en: Kenzan 2014
+      place-en: Tower Hall Funabori
+    - title: A Small Art Fair
+      place: Hiroshima Mitsukoshi Department Store
 ---

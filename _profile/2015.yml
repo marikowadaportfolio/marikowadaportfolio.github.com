@@ -3,17 +3,31 @@ year: 2015
 events:
     - title: アートのチカラ
       place: 伊勢丹新宿店
+      title-en: The Power of Art
+      place-en: Isetan Shinjuku Department Store
     - title: 犬か八か展
       place: 八犬堂ギャラリー
+      title-en: Dog or Eight
+      place-en: Hakkendo Gallery
     - title: みやじまゆういち・和田真理子・関谷 理　3人展
       place: ながの東急
+      title-en: Yuichi Miyajima / Mariko Wada / Osamu Sekiya Three-Artist Exhibit
+      place-en: Nagano Tokyo Department Store
     - title: たんざく展
       place: 新井画廊・伊勢丹新宿店
+      title-en: <em>Tanzaku</em> Exhibit
+      place-en: Arai Gallery and Isetan Shinjuku Department Store
     - title: 有芽の会
       place: 西武池袋店
+      title-en: Yuga no Kai
+      place-en: Seibu Ikebukuro Department Store
     - title: 見参～KENZAN～2015
       place: 伊藤忠青山アートスクエア
       url: http://kenzan.jp/exhibitions/kenzan-2015/
+      title-en: Kenzan 2015
+      place-en: Itochu Aoyama Art Square
     - title: ～ヤングアーティスト旋風～2015アートアートアート。
       place: 松坂屋名古屋店
+      title-en: Young Artists 2015 Art Art Art
+      place-en: Nagoya Matsuzakaya Department Store
 ---
