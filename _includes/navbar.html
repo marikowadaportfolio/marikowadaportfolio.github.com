@@ -1,6 +1,6 @@
 <!-- navbar -->
 <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
-  {% if page.url == "/" %}
+  {% if page.layout == "indexpage" %}
   <a class="navbar-brand" href="#top">
   {% else %}
   <a class="navbar-brand" href="/">
@@ -8,7 +8,7 @@
     <img src="/assets/img/marikostamp_30.png" width="30" height="30" class="d-inline-block align-top" alt="">
     Mariko Wada
   </a>
-  {% if page.url == "/" %}
+  {% if page.layout == "indexpage" %}
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
