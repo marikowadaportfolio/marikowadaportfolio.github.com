@@ -30,6 +30,8 @@ events:
       url: http://kenzan.jp/exhibitions/kenzan-2014/
       title-en: Kenzan 2014
       place-en: Tower Hall Funabori
-    - title: A Small Art Fair
-      place: Hiroshima Mitsukoshi Department Store
+    - title: 小さなアートフェア
+      place: 広島三越
+      title-en: A Small Art Fair
+      place-en: Hiroshima Mitsukoshi Department Store
 ---
