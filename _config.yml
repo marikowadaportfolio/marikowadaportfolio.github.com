@@ -6,3 +6,6 @@ collections:
 
 plugins:
     - jekyll-sitemap
+    
+gems:
+  - jekyll-redirect-from    
