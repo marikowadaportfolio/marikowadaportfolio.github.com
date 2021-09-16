@@ -3,7 +3,6 @@ html {
 }
 
 body {
-    /* font-family: 'Sawarabi Mincho', serif; */
     font-family: 'Noto Serif JP', serif;
     position: relative; /* For scrollspy */
     background:url(/assets/img/110929185832.jpg); /* from https://patterns.nanya-kanya.info/detail/4080/ */
