@@ -50,8 +50,12 @@ h1 {
     color:#111;
     /* background-color:#eee; */
 }
-.noblue {
-    color:inherit;
+.socialwhite {
+    color:rgba(255,255,255,1);
+    /* font-size:5rem; */
+}
+.socialwhite:hover{
+    color:rgba(255,255,255,.75);
 }
 
 #news {
