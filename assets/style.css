@@ -79,6 +79,18 @@ h1 {
     margin-bottom:60px;
 }
 
+/* News posts - new divs after moving on from tables */
+div.posteventheader {
+  font-weight: 700!important;
+  padding-top: 1rem!important;
+  padding-bottom: 0.25rem!important;
+}
+
+div.posteventdetail {
+  padding-top: 1rem!important;
+  padding-bottom: 1rem!important;
+}
+
 /* Intro hero text sizes at different breakpoints */
 @media (min-width: 576px) {
     h1 {
