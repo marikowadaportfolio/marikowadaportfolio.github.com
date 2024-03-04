@@ -4,22 +4,35 @@
         {% case page.language %}
         {% when 'ja' %}
         <h2>履歴</h2>
-            <table class="table eventsection">
-                <tbody>
-                    <tr>
-                        <th scope="row">2014年11月8日</th>
-                        <td>wadamariko.com 公式サイトを開設いたしました。</td>                        
-                    </tr>
-                    <tr>
-                        <th scope="row">2015年1月8日</th>
-                        <td><a href="https://www.facebook.com/wmariko/" title="和田真理子 Facebookページ" target="_blank">Facebookページを開設いたしました。</a></td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2018年8月23日</th>
-                        <td>当サイトをリニューアルいたしました。</td>
-                    </tr>
-                </tbody>
-            </table>
+
+        <div class="container mb-5">
+          <div class="row border-bottom border-dark">
+            <div class="col-md-3 col-sm-4 posteventheader">
+              2014年11月8日
+            </div>
+            <div class="col posteventdetail">
+              wadamariko.com 公式サイトを開設いたしました。
+            </div>
+          </div>
+
+          <div class="row border-bottom border-dark">
+            <div class="col-md-3 col-sm-4 posteventheader">
+              2015年1月8日
+            </div>
+            <div class="col posteventdetail">
+              <a href="https://www.facebook.com/wmariko/" title="和田真理子 Facebookページ" target="_blank">Facebookページを開設いたしました。</a>
+            </div>
+          </div>
+
+          <div class="row border-bottom border-dark">
+            <div class="col-md-3 col-sm-4 posteventheader">
+              2018年8月23日
+            </div>
+            <div class="col posteventdetail">
+              当サイトをリニューアルいたしました。
+            </div>
+          </div>
+        </div>
         {% when 'en' %}
         {% endcase %}
             {% for post in site.posts limit:1 %} <!-- To add news item, create a new *.md file in _news named with the date in yyyy-mm-dd format. Don't make two posts on the same day. -->
