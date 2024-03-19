@@ -1,49 +1,62 @@
 <!-- Profile section -->
 <section id="profile" class="section-light">
     <div class="container container-profile">
-        <h2>PROFILE</h2>
-            <table class="table eventsection">
-                <tbody>
-                    <tr>
-                        <th scope="row">1987</th>
-                        <td>{% case page.language %}
-                                {% when 'ja' %}愛知県生まれ
-                                {% when 'en' %}Born in Aichi prefecture
-                            {% endcase %}</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2006</th>
-                        <td>{% case page.language %}
-                                {% when 'ja' %}愛知県立旭丘高等学校美術科 卒
-                                {% when 'en' %}Graduation from the Dept. of Fine Arts, Aichi Prefectural Asahigaoka High School
-                            {% endcase %}</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2012</th>
-                        <td>{% case page.language %}
-                                {% when 'ja' %}東京藝術大学美術学部絵画科日本画専攻 卒
-                                {% when 'en' %}Graduation from the <em>Nihonga</em> Course, Dept. of Painting, Tokyo University of the Arts
-                            {% endcase %}</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2013</th>
-                        <td>{% case page.language %}
-                                {% when 'ja' %}第68回春の院展 入選<br>第98回再興院展 入選
-                                {% when 'en' %}Selected for the 68th <em>Inten</em> Spring Exhibition<br>Selected for the 98th <em>Inten</em> Autumn Exhibition
-                            {% endcase %}</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">{% case page.language %}
-                                {% when 'ja' %}現在
-                                {% when 'en' %}Currently
-                            {% endcase %}</th>
-                        <td>{% case page.language %}
-                                {% when 'ja' %}百貨店を中心に毎年グループ展等に参加させていただいております
-                                {% when 'en' %}
-                            {% endcase %}</td>
-                    </tr>
-                </tbody>
-            </table>
+
+        {% case page.language %}
+        {% when 'ja' %}
+        <h2>履歴</h2>
+
+        <div class="container mb-5">
+          <div class="row border-bottom border-dark">
+            <div class="col-md-2 col-sm-3 posteventheader">
+              2014年11月
+            </div>
+            <div class="col posteventdetail">
+              wadamariko.com 公式サイトを開設いたしました。
+            </div>
+          </div>
+
+          <div class="row border-bottom border-dark">
+            <div class="col-md-2 col-sm-3 posteventheader">
+              2015年1月
+            </div>
+            <div class="col posteventdetail">
+              <a href="https://s.wadamariko.com/newsfb" title="和田真理子 Facebookページ" target="_blank">Facebook ページを開設いたしました。</a>
+            </div>
+          </div>
+
+          <div class="row border-bottom border-dark">
+            <div class="col-md-2 col-sm-3 posteventheader">
+              2018年8月
+            </div>
+            <div class="col posteventdetail">
+              当サイトをリニューアルいたしました。
+            </div>
+          </div>
+
+          <div class="row border-bottom border-dark">
+            <div class="col-md-2 col-sm-3 posteventheader">
+              2020年5月
+            </div>
+            <div class="col posteventdetail">
+              <a href="https://s.wadamariko.com/newsig" title="和田真理子 Instagram アカウント" target="_blank">Instagram アカウントを開設いたしました。</a>
+            </div>
+          </div>
+
+          <div class="row border-bottom border-dark">
+            <div class="col-md-2 col-sm-3 posteventheader">
+              2021年6月
+            </div>
+            <div class="col posteventdetail">
+              <a href="https://s.wadamariko.com/newsyt" title="和田真理子 YouTube チャンネル" target="_blank">YouTube チャンネルを開設いたしました。</a>
+            </div>
+          </div>
+        </div>
+        {% when 'en' %}
+        {% endcase %}
+
+
+
         <h2>{% case page.language %}
                 {% when 'ja' %}展示会歴
                 {% when 'en' %}EXHIBITIONS

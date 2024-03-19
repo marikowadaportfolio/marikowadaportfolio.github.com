@@ -1,58 +1,56 @@
 <!-- News section -->
 <section id="news" class="section-dark jarallax" data-jarallax data-type="scroll">
     <div class="container container-news">
-        {% case page.language %}
-        {% when 'ja' %}
-        <h2>履歴</h2>
 
-        <div class="container mb-5">
-          <div class="row border-bottom border-dark">
-            <div class="col-md-2 col-sm-3 posteventheader">
-              2014年11月
+        <h2>PROFILE</h2>
+
+          <div class="container mb-5">
+            <div class="row border-bottom border-dark">
+              <div class="col-md-2 col-sm-3 posteventheader">
+                1987
+              </div>
+              <div class="col posteventdetail">
+                愛知県生まれ
+              </div>
             </div>
-            <div class="col posteventdetail">
-              wadamariko.com 公式サイトを開設いたしました。
+
+            <div class="row border-bottom border-dark">
+              <div class="col-md-2 col-sm-3 posteventheader">
+                2006
+              </div>
+              <div class="col posteventdetail">
+                愛知県立旭丘高等学校美術科 卒
+              </div>
+            </div>
+
+            <div class="row border-bottom border-dark">
+              <div class="col-md-2 col-sm-3 posteventheader">
+                2012
+              </div>
+              <div class="col posteventdetail">
+                東京藝術大学美術学部絵画科日本画専攻 卒
+              </div>
+            </div>
+
+            <div class="row border-bottom border-dark">
+              <div class="col-md-2 col-sm-3 posteventheader">
+                2013
+              </div>
+              <div class="col posteventdetail">
+                第68回春の院展 入選<br>第98回再興院展 入選
+              </div>
+            </div>
+
+            <div class="row border-bottom border-dark">
+              <div class="col-md-2 col-sm-3 posteventheader">
+                現在
+              </div>
+              <div class="col posteventdetail">
+                百貨店を中心に毎年グループ展等に参加させていただいております
+              </div>
             </div>
           </div>
 
-          <div class="row border-bottom border-dark">
-            <div class="col-md-2 col-sm-3 posteventheader">
-              2015年1月
-            </div>
-            <div class="col posteventdetail">
-              <a href="https://s.wadamariko.com/newsfb" title="和田真理子 Facebookページ" target="_blank">Facebook ページを開設いたしました。</a>
-            </div>
-          </div>
-
-          <div class="row border-bottom border-dark">
-            <div class="col-md-2 col-sm-3 posteventheader">
-              2018年8月
-            </div>
-            <div class="col posteventdetail">
-              当サイトをリニューアルいたしました。
-            </div>
-          </div>
-
-          <div class="row border-bottom border-dark">
-            <div class="col-md-2 col-sm-3 posteventheader">
-              2020年5月
-            </div>
-            <div class="col posteventdetail">
-              <a href="https://s.wadamariko.com/newsig" title="和田真理子 Instagram アカウント" target="_blank">Instagram アカウントを開設いたしました。</a>
-            </div>
-          </div>
-
-          <div class="row border-bottom border-dark">
-            <div class="col-md-2 col-sm-3 posteventheader">
-              2021年6月
-            </div>
-            <div class="col posteventdetail">
-              <a href="https://s.wadamariko.com/newsyt" title="和田真理子 YouTube チャンネル" target="_blank">YouTube チャンネルを開設いたしました。</a>
-            </div>
-          </div>
-        </div>
-        {% when 'en' %}
-        {% endcase %}
             {% for post in site.posts limit:1 %} <!-- To add news item, create a new *.md file in _news named with the date in yyyy-mm-dd format. Don't make two posts on the same day. -->
                 {{ post.content }}
                 <small>更新 {{ post.date | date: "%Y年%m月%d日" }}</small>
