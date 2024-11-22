@@ -13,4 +13,16 @@ events:
       place: 遠鉄百貨店
       title-en: Young Art Hamamatsu
       place-en: Entetsu Department Store
+    - title: たんざく展
+      place: 伊勢丹新宿店・阿部敬四郎ギャラリー
+      title-en: <em>Tanzaku</em> Exhibit
+      place-en: Isetan Shinjuku Department Store / Abe Keishiro Gallery
+    - title: 和田真理子　個展　「雪月風花」
+      place: 松坂屋上野店
+      title-en: The Scenery of the Seasons (Mariko Wada Solo Exhibit)
+      place-en: Ueno Matsuzakaya
+    - title: アートのチカラ
+      place: 伊勢丹新宿店
+      title-en: The Power of Art
+      place-en: Isetan Shinjuku Department Store
 ---
