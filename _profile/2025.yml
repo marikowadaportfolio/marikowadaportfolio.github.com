@@ -13,4 +13,40 @@ events:
       place: フジサキ百貨店
       title-en: The Tokyo Art Scene Today
       place-en: Fujisaki Department Store
+    - title: 完全 -KANZEN-
+      place: 銀座三越
+      title-en: Kanzen
+      place-en: Ginza Mitsukoshi Department Store
+    - title: 五人掛かり
+      place: 丸善・丸の内本店
+      title-en: Five Artists' Collaboration
+      place-en: Maruzen Marunouchi
+    - title: たんざく展
+      place: 伊勢丹新宿店
+      title-en: <em>Tanzaku</em> Exhibit
+      place-en: Isetan Shinjuku Department Store
+    - title: My First Collection -出会いのアート展-
+      place: 松坂屋静岡店
+      title-en: My First Collection
+      place-en: Shizuoka Matsuzakaya Department Store
+    - title: Young Art Hamamatsu Vol. 7
+      place: 遠鉄百貨店
+      title-en: Yount Art Hamamatsu Vol. 7
+      place-en: Entetsu Department Store
+    - title: たんざく展
+      place: 松坂屋名古屋店
+      title-en: <em>Tanzaku</em> Exhibit
+      place-en: Nagoya Matsuzakaya Department Store
+    - title: アートアートアート
+      place: 松坂屋名古屋店
+      title-en: Art Art Art
+      place-en: Nagoya Matsuzakaya Department Store
+    - title: 特選絵画展
+      place: 遠鉄百貨店
+      title-en: Special Selection Exhibit
+      place-en: Entetsu Department Store
+    - title: ファインアートコレクション25冬
+      place: 松坂屋名古屋店
+      title-en: Fine Art Collection Winter 2025
+      place-en: Nagoya Matsuzakaya Department Store
 ---
