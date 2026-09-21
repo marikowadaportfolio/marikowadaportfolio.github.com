@@ -59,7 +59,7 @@
       会場
     </div>
     <div class="col posteventdetail">
-      松坂屋名古屋店 gallery α<br>
+      松坂屋名古屋店 本館8階 ART HUB NAGOYA gallery α<br>
       〒460-8430 名古屋市中区栄三丁目16番1号
       （<a href="https://www.matsuzakaya.co.jp/nagoya/access.html" target="_blank">アクセス</a>）
     </div>
