@@ -41,7 +41,7 @@
       展示会名
     </div>
     <div class="col posteventdetail">
-      和田真理子　個展 <span class="badge bg-secondary text-white">個展</span>
+      和田真理子　個展 －紅蘭紫菊－ <span class="badge bg-secondary text-white">個展</span>
     </div>
   </div>
 
