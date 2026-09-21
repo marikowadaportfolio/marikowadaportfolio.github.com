@@ -1,7 +1,7 @@
 ---
 year: 2023
 events:
-    - title: 和田真理子展
+    - title: 和田真理子展 <span class="badge bg-secondary text-white">個展</span>
       place: エロイーズカフェ東京浅草
       title-en: Wada Mariko Exhibit
       place-en: Eloise's Café Tokyo Asakusa

@@ -5,7 +5,7 @@ events:
       place: 東京藝術大学
       title-en: The 59th Graduation Exhibit of the Tokyo University of the Arts
       place-en: Tokyo University of the Arts
-    - title: 然々展(個展)
+    - title: 然々展(個展) <span class="badge bg-secondary text-white">個展</span>
       place: 田中酒造二階　やねうら画廊
       title-en: Shikajika (Solo Exhibit)
       place-en: Attic Gallery (2F Tanaka Brewery)
