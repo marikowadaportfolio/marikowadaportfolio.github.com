@@ -17,11 +17,14 @@ events:
       place: フジサキ百貨店
     - title: たんざく展
       place: 伊勢丹新宿店
-    - title: 和田真理子　日本画展　－紅蘭紫菊－ <span class="badge bg-secondary text-white">個展</span>
+    - title: 和田真理子 日本画展 －紅蘭紫菊－ <span class="badge bg-secondary text-white">個展</span>
       place: 東武百貨店池袋店
-    - title: My first collection 　－出会いのアート展－
+    - title: My first collection －出会いのアート展－
       place: 松坂屋静岡店
     - title: SAPPORO ART PARADE
       place: 大丸札幌店
-    - title: 和田真理子　個展 <span class="badge bg-secondary text-white">個展</span>
+    - title: 和田真理子 個展 －紅蘭紫菊－ <span class="badge bg-secondary text-white">個展</span>
+      place: 松坂屋名古屋店
+    - title: 秋の特選絵画展　YOUNG ART ENTETSU
+      place: 遠鉄百貨店
 ---
